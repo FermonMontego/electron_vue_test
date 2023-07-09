@@ -1,0 +1,630 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "idParent": null,
+      "name": "Бытовая техника",
+      "logo": "адрес до логотипа, может быть как локальный с диска, так и получаемый по сети"
+    },
+    {
+      "id": 2,
+      "idParent": 1,
+      "name": "Техника для кухни"
+    },
+    {
+      "id": 3,
+      "idParent": 1,
+      "name": "Техника для дома"
+    },
+    {
+      "id": 4,
+      "idParent": 1,
+      "name": "Встраиваемая техника"
+    },
+    {
+      "id": 5,
+      "idParent": null,
+      "name": "Красота и здоровье"
+    },
+    {
+      "id": 6,
+      "idParent": 5,
+      "name": "Товары для волос"
+    },
+    {
+      "id": 7,
+      "idParent": 5,
+      "name": "Бритье, стрижка и эпиляция"
+    },
+    {
+      "id": 8,
+      "idParent": 5,
+      "name": "Уход за полостью рта"
+    },
+    {
+      "id": 9,
+      "idParent": 5,
+      "name": "Уход за телом"
+    },
+    {
+      "id": 10,
+      "idParent": null,
+      "name": "Смартфоны и фототехника"
+    },
+    {
+      "id": 11,
+      "idParent": 10,
+      "name": "Смартфоны и гаджеты"
+    },
+    {
+      "id": 12,
+      "idParent": 10,
+      "name": "Планшеты и электронные книги"
+    },
+    {
+      "id": 13,
+      "idParent": 10,
+      "name": "Фототехника"
+    },
+    {
+      "id": 14,
+      "idParent": null,
+      "name": "ТВ, консоли и аудио"
+    },
+    {
+      "id": 15,
+      "idParent": 14,
+      "name": "Телевизоры и аксессуары"
+    },
+    {
+      "id": 16,
+      "idParent": 14,
+      "name": "Консоли и видеоигры"
+    },
+    {
+      "id": 17,
+      "idParent": 14,
+      "name": "Аудиотехника"
+    },
+    {
+      "id": 18,
+      "idParent": null,
+      "name": "ПК, ноутбуки и переферия"
+    },
+    {
+      "id": 19,
+      "idParent": 18,
+      "name": "Ноутбуки и аксессуары"
+    },
+    {
+      "id": 20,
+      "idParent": 18,
+      "name": "Компьюетры и ПО"
+    },
+    {
+      "id": 21,
+      "idParent": 18,
+      "name": "Переферия и аксессуары"
+    }
+  ],
+  "items": [
+    {
+      "id": 109,
+      "idGroup": 6,
+      "product": {
+        "id": 1,
+        "name": "Шампунь Чистая линия",
+        "price": 290,
+        "valute": "Руб.",
+        "description": "Сделает ваши волосы неотразимыми",
+        "weight": 1,
+        "unitType": "л.",
+        "urlImg": "https://avatars.mds.yandex.net/get-mpic/5391380/img_id7100190808802817827.png/14hq"
+      }
+    },
+    {
+      "id": 110,
+      "idGroup": 6,
+      "product": {
+        "id": 2,
+        "name": "Шампунь 'Dove'",
+        "price": 399,
+        "valute": "Руб.",
+        "description": "Шампунь для сухих и секущихся концов",
+        "weight": 0.8,
+        "unitType": "л.",
+        "urlImg": "https://main-cdn.sbermegamarket.ru/hlr-system/975/583/065/519/05/100028051761b0.jpeg"
+      }
+    },
+    {
+      "id": 111,
+      "idGroup": 9,
+      "product": {
+        "id": 3,
+        "name": "Гель для душа 'Nivea'",
+        "price": 185,
+        "valute": "Руб.",
+        "description": "Освежает и бодрит, да Nivea это хит",
+        "weight": 0.7,
+        "unitType": "л.",
+        "urlImg": "https://basket-08.wb.ru/vol1163/part116353/116353641/images/c246x328/1.jpg"
+      }
+    },
+    {
+      "id": 112,
+      "idGroup": 9,
+      "product": {
+        "id": 4,
+        "name": "Гель для душа 'AXE'",
+        "price": 355,
+        "valute": "Руб.",
+        "description": "Почувствуй себя",
+        "weight": 0.25,
+        "unitType": "л.",
+        "urlImg": "https://main-cdn.sbermegamarket.ru/hlr-system/-17/011/241/851/220/202/100000889377b0.jpg"
+      }
+    },
+    {
+      "id": 113,
+      "idGroup": 9,
+      "product": {
+        "id": 5,
+        "name": "Гель для душа 'Old Spice'",
+        "price": 499,
+        "valute": "Руб.",
+        "description": "Да ты на коне",
+        "weight": 0.25,
+        "unitType": "л.",
+        "urlImg": "https://main-cdn.sbermegamarket.ru/hlr-system/134/479/554/132/818/21/100001554605b0.png"
+      }
+    },
+    {
+      "id": 114,
+      "idGroup": 7,
+      "product": {
+        "id": 6,
+        "name": "Полоски восковые",
+        "price": 799,
+        "valute": "Руб.",
+        "description": "Мягкое удаление",
+        "weight": 28,
+        "unitType": "шт.",
+        "urlImg": "https://avatars.mds.yandex.net/get-eda/3513074/9825b31626fddf3a0c6d3f364ce25a92/1200x1200nocrop"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 7,
+      "product": {
+        "id": 7,
+        "name": "Станки GILLET",
+        "price": 1199,
+        "valute": "Руб.",
+        "description": "3 лезвия с плавающей головкой",
+        "weight": 1,
+        "unitType": "шт.",
+        "urlImg": "https://images.ctfassets.net/7tfi3razjgvb/20N2VchEfnjrFRSTbs2f23/9ef5ab0d94ec9819556205e82f181d3b/sp_overview_402x.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 8,
+      "product": {
+        "id": 7,
+        "name": "Зубная паста SPLAT",
+        "price": 112,
+        "valute": "Руб.",
+        "description": "Отбеливание и приятный вкус",
+        "weight": 75,
+        "unitType": "мл.",
+        "urlImg": "https://static.stomatologclub.ru/uploads/af/90/d25dbc7eb95903e1eac3aa890e22.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 8,
+      "product": {
+        "id": 7,
+        "name": "Зубная паста Colgate",
+        "price": 99,
+        "valute": "Руб.",
+        "description": "Отбеливание и удаляет до 99% микробов",
+        "weight": 75,
+        "unitType": "мл.",
+        "urlImg": "https://main-cdn.sbermegamarket.ru/hlr-system/42/22/21/22/99/15/100002564353b0.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 11,
+      "product": {
+        "id": 7,
+        "name": "Iphone 14",
+        "price": 79900,
+        "valute": "Руб.",
+        "description": "Смартфон нового поколения, способный покрыть 99% ваших потребностей",
+        "weight": 128,
+        "unitType": "ГБ.",
+        "urlImg": "https://www.ilounge.com/wp-content/uploads/2022/08/iPhone-14.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 11,
+      "product": {
+        "id": 7,
+        "name": "Samsung s23",
+        "price": 56000,
+        "valute": "Руб.",
+        "description": "Отличный смарфтон, подойдет для любых задач",
+        "weight": 256,
+        "unitType": "ГБ.",
+        "urlImg": "https://4ip.info/files/products/355726-1.450x450.jpeg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 12,
+      "product": {
+        "id": 7,
+        "name": "Samsung планшет",
+        "price": 99000,
+        "valute": "Руб.",
+        "description": "Большой экран, емкая батарея",
+        "weight": 512,
+        "unitType": "ГБ.",
+        "urlImg": "https://static.eldorado.ru/photos/mv/Big/30064272bb.jpg/resize/380x240/"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 12,
+      "product": {
+        "id": 7,
+        "name": "Электронная книга",
+        "price": 2500,
+        "valute": "Руб.",
+        "description": "Читать всегда хорошо",
+        "weight": 10000,
+        "unitType": "книг",
+        "urlImg": "https://fotomag.com.ua/image/cache/catalog/products/865ca3ba42678a2d0838816690acc1d9-1000x1000.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 12,
+      "product": {
+        "id": 7,
+        "name": "Электронная книга Pocket Book 625",
+        "price": 5500,
+        "valute": "Руб.",
+        "description": "Читать всегда хорошо",
+        "weight": 15000,
+        "unitType": "книг",
+        "urlImg": "https://www.readerone.ru/upload/iblock/ca6/ca6466c5ce3eb46589484466ae2bc885.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 13,
+      "product": {
+        "id": 7,
+        "name": "Камера Canon",
+        "price": 35000,
+        "valute": "Руб.",
+        "description": "Делает волшебные снимки, которые вы точно запомните",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://salebazar.ru/wa-data/public/shop/products/04/77/7704/images/20299/20299.970.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 13,
+      "product": {
+        "id": 7,
+        "name": "Камера Nikon",
+        "price": 49999,
+        "valute": "Руб.",
+        "description": "Камера для профессиональной съемки",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://tehnoteca.ru/img/1757/1756459/nikon_coolpix_p950_1.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 13,
+      "product": {
+        "id": 7,
+        "name": "Камера Sony",
+        "price": 109000,
+        "valute": "Руб.",
+        "description": "Камера для профессионалов, способная буквально на все",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://i.ebayimg.com/00/s/NTAwWDUwMA==/z/FowAAOSw2VBjtA4F/$_3.JPG?set_id=8800005007"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 15,
+      "product": {
+        "id": 7,
+        "name": "Xiaomi TV",
+        "price": 45999,
+        "valute": "Руб.",
+        "description": "Лучшее качество изображения, за свои деньги",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://img.tehnomaks.ru/img/prod/full/15960110032.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 16,
+      "product": {
+        "id": 7,
+        "name": "PS 5",
+        "price": 49900,
+        "valute": "Руб.",
+        "description": "Откройте для себя новый мир",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://1734811051.rsc.cdn77.org/data/images/full/386340/ps5-restock-schedule-june-2021-may-31-june-6-gamestop-target-walmart-best-buy-and-more.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 16,
+      "product": {
+        "id": 7,
+        "name": "Xbox",
+        "price": 52499,
+        "valute": "Руб.",
+        "description": "Он очень мощный",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://lmt.mstatic.lv/devices/images/700x980/Xbox_Series_X31247.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 16,
+      "product": {
+        "id": 7,
+        "name": "DualShock4",
+        "price": 8999,
+        "valute": "Руб.",
+        "description": "Не передаваемые ощущения",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://retromagaz.com/uploads/product_galleries/c9/4b/site_big_f29m2j268_73197c46.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 17,
+      "product": {
+        "id": 7,
+        "name": "Ipod",
+        "price": 12999,
+        "valute": "Руб.",
+        "description": "Лучший звук",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/~ZgAAOSwQaZe03Ga/$_57.JPG?set_id=8800005007"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 17,
+      "product": {
+        "id": 7,
+        "name": "MP3 плеер",
+        "price": 2999,
+        "valute": "Руб.",
+        "description": "Легкий, компактный и хороший звук",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://i5.walmartimages.com/asr/0fcec316-f3bd-4aad-bedf-f24d3f19fe2c_1.c6e2a359394e8c30aeda81c2a51225a7.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 19,
+      "product": {
+        "id": 7,
+        "name": "Ноутбук HP",
+        "price": 23999,
+        "valute": "Руб.",
+        "description": "Отлично подойдет для учебы и просмотра кино",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://snamiplus.com.ua/assets/images/products/63858/noutbuk-15-hp-255-g7-7dd27es-dark-ash-silver-15-6-194917.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 19,
+      "product": {
+        "id": 7,
+        "name": "Mackbook",
+        "price": 89000,
+        "valute": "Руб.",
+        "description": "Отличный инструмент для разработчиком и дизайнеров",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://tehnoteca.ru/img/949/948308/apple_z0ss00038_2.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 20,
+      "product": {
+        "id": 7,
+        "name": "Системный блок AeroCool",
+        "price": 32990,
+        "valute": "Руб.",
+        "description": "Машина для офисных работ",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://www.jib.co.th/img_master/product/original/20180831095903_15837_24_1.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 20,
+      "product": {
+        "id": 7,
+        "name": "Системный блок игровой",
+        "price": 74990,
+        "valute": "Руб.",
+        "description": "Мечта любого геймера",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/576/img/0010.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 21,
+      "product": {
+        "id": 7,
+        "name": "Игровые наушники",
+        "price": 2499,
+        "valute": "Руб.",
+        "description": "Отлично подойдет для любителей",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://content2.rozetka.com.ua/goods/images/original/241004879.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 21,
+      "product": {
+        "id": 7,
+        "name": "Игровые наушники профессиональные",
+        "price": 10499,
+        "valute": "Руб.",
+        "description": "Профессиональный игрок? Тогда эти наушники для вас",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://tehnoteca.ru/img/2065/2064449/borofone_bo101_6.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 2,
+      "product": {
+        "id": 7,
+        "name": "Плита Bosch",
+        "price": 24999,
+        "valute": "Руб.",
+        "description": "Каждая домохозяйка будет рада видеть ее на кухне",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://s1.zakazbt.ru/product/01/02/1028670/ff0dfc941672790296/ff0dfc941672790296.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 2,
+      "product": {
+        "id": 7,
+        "name": "Плита газовая",
+        "price": 312000,
+        "valute": "Руб.",
+        "description": "Модель отлично подойдет для профессиональной кухни",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://avatars.mds.yandex.net/get-marketpic/7754097/pic497b5bfadd67a202ea265055af5c8f16/orig"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 3,
+      "product": {
+        "id": 7,
+        "name": "Пылесос Philips",
+        "price": 9000,
+        "valute": "Руб.",
+        "description": "Сохранит вашу чистоту дома",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "http://ru-mobile.ru/image/cache/catalog/i/ml/ko/34588977828b230b19ba0e6bd1ddf695-550x550.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 3,
+      "product": {
+        "id": 7,
+        "name": "Пылесос EuroStack",
+        "price": 11990,
+        "valute": "Руб.",
+        "description": "Главный аргумент против пыли",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://greenloft.ru/image/cache/data/multi5/158228505423498444-550x550.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 4,
+      "product": {
+        "id": 7,
+        "name": "Вытяжка Jet Air",
+        "price": 33590,
+        "valute": "Руб.",
+        "description": "Вас ничего не должно отвлекать от готовки",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://getmart.ru/upload/iblock/589/4gdagw6lxiunrgmzk5r0si7fevdgv8yz.jpg"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 4,
+      "product": {
+        "id": 7,
+        "name": "Встраиваемая микроволновая печь",
+        "price": 42999,
+        "valute": "Руб.",
+        "description": "Монолитный дизайн, тренд сезона",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://avatars.mds.yandex.net/get-mpic/3909438/img_id8613120199882983033.jpeg/x332_trim"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 4,
+      "product": {
+        "id": 7,
+        "name": "Встраиваемая микроволновая печь MAUNFELD",
+        "price": 23990,
+        "valute": "Руб.",
+        "description": "Невероятная скорость разогрева блюд",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://s1.zakazbt.ru/product/57/70/577000/2bab52a31596472174/2bab52a31596472174.png"
+      }
+    },
+    {
+      "id": 115,
+      "idGroup": 4,
+      "product": {
+        "id": 7,
+        "name": "Посудомоечная машина",
+        "price": 17999,
+        "valute": "Руб.",
+        "description": "Сохранит ваше время и нервы",
+        "weight": 1,
+        "unitType": "шт",
+        "urlImg": "https://img.mvideo.ru/Pdb/20085382b.jpg"
+      }
+    }
+  ]
+}
