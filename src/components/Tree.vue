@@ -31,9 +31,7 @@ export default {
   },
   methods: {},
 
-  mounted() {
-    console.log(this.test);
-  },
+  mounted() {},
   props: {
     deep: {
       type: Number,
