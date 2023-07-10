@@ -51,6 +51,11 @@ export default {
   display: flex;
   align-items: center;
   gap: 30px;
+
+  @media(max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 .productSelect {
   width: 100%;
