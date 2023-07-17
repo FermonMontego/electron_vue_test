@@ -24,23 +24,20 @@ class DataNode {
     let crumb = [];
 
     function createCrumb(value) {
-      
       for (let i = 0; i < value.length; i++) {
-        
         if (Object.keys(value[i]).includes("children") == true) {
-
           crumb.push(value[i].name);
           createCrumb(value[i].children);
-
         } else if (Object.keys(value[i]).includes("children") != true) {
-          
           crumb.push(value[i].product.name);
-          
+
           value[i].product.crumb = [...crumb];
-          crumb = [...crumb.slice(0, -1)]
+          console.log(crumb, "crumb");
+          crumb = [...crumb.slice(0, -1)];
         }
       }
-      crumb = []
+
+      crumb = [...crumb.slice(0, -1)];
     }
 
     createCrumb(this.compileNode);
