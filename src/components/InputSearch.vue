@@ -22,6 +22,7 @@ export default {
 
   methods: {
     searchTarget(value) {
+      if(value.length <= 3) return;
       this.$store.commit("searchFilter", value);
     },
   },

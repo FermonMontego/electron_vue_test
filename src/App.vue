@@ -5,6 +5,7 @@
       <Tree :node="root" />
     </Menu>
     <Container>
+      <BreadCrambs v-if="$store.state.currentProduct.crumb" />
       <ProductSelect />
       <hr width="100%" style="margin: 20px 0px" color="#eee" />
       <AllProducts />
@@ -21,6 +22,7 @@ import Menu from "./components/Menu.vue";
 import InputSearch from "./components/InputSearch.vue";
 import AllProducts from "./components/AllProducts.vue";
 import Container from "./components/Container.vue";
+import BreadCrambs from "./components/BreadCrambs.vue";
 
 export default {
   name: "App",
@@ -32,13 +34,12 @@ export default {
   },
 
   methods: {
-    test(value) {
-      console.log(value);
-    },
+    test(value) {},
   },
   mounted() {
-    console.log(this.$store);
+    console.log(compileData.getCompile());
     this.root = compileData.getCompile();
+
     this.$store.commit("changeProducts", compileData.getAllProduct());
   },
   components: {
@@ -48,6 +49,7 @@ export default {
     InputSearch,
     AllProducts,
     Container,
+    BreadCrambs,
   },
 };
 </script>

@@ -10,17 +10,40 @@ class DataNode {
         });
 
         item.children.forEach((itemGroup) => {
-          itemGroup.children = data.items.filter(
-            (item) => item.idGroup == itemGroup.id
-          );
+          itemGroup.children = data.items.filter((elements, index) => {
+            return elements.idGroup == itemGroup.id;
+          });
         });
-
-        console.log(item);
 
         acc.push(item);
       }
+
       return acc;
     }, []);
+
+    let crumb = [];
+
+    function createCrumb(value) {
+      
+      for (let i = 0; i < value.length; i++) {
+        
+        if (Object.keys(value[i]).includes("children") == true) {
+
+          crumb.push(value[i].name);
+          createCrumb(value[i].children);
+
+        } else if (Object.keys(value[i]).includes("children") != true) {
+          
+          crumb.push(value[i].product.name);
+          
+          value[i].product.crumb = [...crumb];
+          crumb = [...crumb.slice(0, -1)]
+        }
+      }
+      crumb = []
+    }
+
+    createCrumb(this.compileNode);
   }
 
   getCompile() {
